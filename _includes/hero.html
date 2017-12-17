@@ -1,9 +1,12 @@
 <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');"> 
     {% include navigation.html %}
     <div class="content-wrapper">
+	
+	
     <div class="jumbotron">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+		<h1><b>The 3rd International Conference on <br /> Digital Learning Strategies and Applications (DLSA 2018)</b></h1>
             {% assign heroText = site.heroTitle | split:"<typeout>" %}
             <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
             <p>{{ site.eventDate }}</p>

@@ -20,13 +20,7 @@ googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
-# Organizer Info
-organizerName: "DLSA 2018"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-#organizerEmail: "lviv@gdg.org.ua"
-#organizerLogo: "/img/seo/organizer-logo.png"
-#organizerLink: "http://lviv.gdg.org.ua/"
+
 
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
@@ -43,44 +37,34 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- #- {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/cfp/", text: "Call For Paper"}
  #- {permalink: "/schedule/", text: "Schedule"}
  #- {permalink: "/speakers/", text: "Speakers"}
  #- {permalink: "/team/", text: "Team"}
  #- {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 #bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 #rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "DLSA  <typeout> 2018"
-eventDate: "April 25 - 29, 2018"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroTitle: "<typeout>"
+eventDate: "April 25-29, 2018"
+typeoutTextValues: '"", "Sapporo", "Hokkaido", "Japan"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://easychair.org/conferences/?conf=dlsa2018", text: "Paper submission"}
+
 
 # About Block
 aboutTitle: "About DLSA 2018"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "Wait to insert" }
  - {title: "Workshops", image: "workshop.jpg", text: "Wait to insert" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Wait to insert" }
+ - {title: "Venue", image: "hackathon.jpg", text: "Wait to insert" }
 
-# Statistic Block
-statisticBlockImage: "statistic.jpg"
-statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
-
-# Latest News Block
-latestNewsTitle: "Latest news"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -130,47 +114,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 #subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 #subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
-# Tickets Block
-#ticketsTitle: "Pricetable"
-#ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
-#ticketsOffers:
- #-
- # name: "Early Bird"
- # price: "350"
-  #priceCurrency: "UAH"
- # ticketsNumber: "150"
-#  ribbon: "-5%"
- # buyButtonLink: "http://dfua.ticketforevent.com/"
-#  buyButtonText: "Buy Now"
- # ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#  validFrom: "2014-08-25T10:00"
-#  validThrough: "2014-09-30T23:59"
- -
- # name: "Last Chance"
- # price: "450"
- # priceCurrency: "UAH"
- # ticketsNumber: "100"
- # ribbon: "-20%"
- # featured: true
-  #buyButtonLink: "http://dfua.ticketforevent.com/"
-  #buyButtonText: "Buy Now"
-  #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  #validFrom: "2014-10-01T00:00"
-  #validThrough: "2014-10-23T23:59"
- # disabled: true
- -
- # name: "Student"
- # price: "200"
- # priceCurrency: "UAH"
- # ticketsNumber: "50"
- # buyButtonLink: "http://dfua.ticketforevent.com/"
- # buyButtonText: "Buy Now"
- # additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
- # ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
- # validFrom: "2014-08-20T10:00"
- # validThrough: "2014-10-23T23:59"
-#  soldOut: true
-#  soldOutText: "Sold Out"
+
 
 # Footer
 socialLinks:
@@ -182,19 +126,19 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "Wait to insert"}
+   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "Insert your email"}
+   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Insert your Wanted text"}
+   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Call for paper"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
