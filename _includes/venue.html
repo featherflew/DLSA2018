@@ -1,34 +1,194 @@
 <!-- Venue Section -->
+<style>
+.slider_container {
+    margin: 30px auto;
+    width: 900px;
+    height: 600px;
+    position: relative;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.slider_container div {
+    -webkit-animation: round 60s linear infinite;
+            animation: round 60s linear infinite;
+}
+
+@-webkit-keyframes round {
+    2% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+     
+    }
+    10% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    12% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
+}
+@keyframes round {
+    2% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    10% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        
+    }
+    12% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        
+    }
+}
+.slider_container div:nth-child(12) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.slider_container div:nth-child(11) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+.slider_container div:nth-child(10) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+.slider_container div:nth-child(9) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+.slider_container div:nth-child(8) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+.slider_container div:nth-child(7) {
+    -webkit-animation-delay: 25s;
+            animation-delay: 25s;
+}
+.slider_container div:nth-child(6) {
+    -webkit-animation-delay: 30s;
+            animation-delay: 30s;
+}
+
+.slider_container div:nth-child(5) {
+    -webkit-animation-delay: 35s;
+            animation-delay: 35s;
+}
+
+.slider_container div:nth-child(4) {
+    -webkit-animation-delay: 40s;
+            animation-delay: 40s;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 45s;
+            animation-delay: 45s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 50s;
+            animation-delay: 50s;
+}
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 55s;
+            animation-delay: 55s;
+}
+.slider_container span {    
+    color: #000;
+    background: #fff;
+    position: absolute;
+    left: 0%;
+    top: 550px;
+    width: 900px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform:scaleY(0);
+        -ms-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+.slider_container:hover span {
+    width: 100%;
+    -webkit-transform:scaleY(1);
+        -ms-transform:scaleY(1);
+            transform:scaleY(1);
+}
+.slider_container:hover div {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+</style>
 <section id="venue">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.venueBlockTitle }}</h3>
-            <div class="row venue-row">
-                <div class="col-md-8 col-sm-8 venue-col">
-                    <div class="venue-elem-wrapper">
-                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})"></div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 venue-col venue-small-col">
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})"></div>
-                    </div>
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem venue-small-elem venue-text animated hiding" data-animation="fadeIn" data-delay="0">
-                            <h5>{{ site.venueTitle }}</h5>
-                            {% for feature in site.venueFeatures %}
-                            <p>{{ feature }}</p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})"></div>
-                    </div>
-                    <div class="venue-elem-wrapper col-xs-6 visible-xs">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})"></div>
-                    </div>
-                </div>
-            </div>
+            <h3>Conference picture</h3>
+            <div class="slider_container">
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DSC_0351.jpg" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/01-DLSA2015與會人員合影.jpg" height="600" width="900" alt="{{ about.title }}">
+		<span class="info">DLSA2015與會人員合影</span>
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/02-致贈北海道大學主辦人紀念品.jpg" height="600" width="900" alt="{{ about.title }}">
+		<span class="info">致贈北海道大學主辦人紀念品</span>
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/03-致贈紀念品給keynote speaker.jpg" height="600" width="900" alt="{{ about.title }}">
+		<span class="info">致贈紀念品給keynote speaker</span>
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/04-論文發表場次.jpg" height="600" width="900" alt="{{ about.title }}">
+		<span class="info">論文發表場次</span>
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/05-參觀北海道大學實習農場.jpg" height="600" width="900" alt="{{ about.title }}">
+		<span class="info">參觀北海道大學實習農場</span>
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DLSA2015-09.JPG" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DLSA2015-10.JPG" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DLSA2015-11.JPG" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DLSA2015-12.JPG" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/DSC_0081.jpg" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+	<div>
+		<img src="{{ site.baseurl }}/img/DLSA2015PIC/HUDOOR.jpg" height="600" width="900" alt="{{ about.title }}">
+		
+	</div>
+			</div>
         </div>
     </div>
 </section>
