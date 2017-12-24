@@ -51,7 +51,7 @@ navigationLinks:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "<typeout>"
-eventDate: "April 25-29, 2018"
+eventDate: "April 26-28, 2018"
 typeoutTextValues: '"", "Sapporo", "Hokkaido", "Japan"'
 typeoutFallback: "Season"
 heroButtons:
@@ -90,12 +90,12 @@ aboutBlock:
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "DLSA 2018"
-venueFeatures: ["Sapporo, Hokkaido, Japan"]
+venueBigImage: "01-DLSA2015與會人員合影.jpg"
+venueSmallImage1: "02-致贈北海道大學主辦人紀念品.jpg"
+venueSmallImage2: "DLSA2015-09.JPG"
+venueSmallImage3: "05-參觀北海道大學實習農場.jpg"
+venueTitle: "Conference picture"
+
 
 # Tweets Feed Block
 #tweetsFeedImage: "twitter-feed.jpg"
@@ -120,10 +120,10 @@ PartnersBlock:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "", icon: "google-plus"}
+ - {link: "", icon: "twitter"}
+ - {link: "", icon: "facebook"}
+ - {permalink: "", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
