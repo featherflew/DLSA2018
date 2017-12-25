@@ -37,9 +37,9 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/cfp/", text: "Call For Paper"}
+ - {permalink: "/cfp/", text: " Call for papers"}
  - {permalink: "/ImportantDates/", text: "Important Dates"}
- - {permalink: "/Organizers/", text: "Organizers"}
+ - {permalink: "/Organizers/", text: "Organization"}
  - {permalink: "/Program/", text: "Program"}
  - {permalink: "/Registration/", text: "Registration"}
  - {permalink: "/Location/", text: "Location"}
@@ -89,12 +89,12 @@ aboutBlock:
 #mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Previous conference pictures"
 venueBigImage: "01-DLSA2015與會人員合影.jpg"
 venueSmallImage1: "02-致贈北海道大學主辦人紀念品.jpg"
 venueSmallImage2: "DLSA2015-09.JPG"
 venueSmallImage3: "05-參觀北海道大學實習農場.jpg"
-venueTitle: "Conference picture"
+venueTitle: "Previous conference pictures"
 
 
 # Tweets Feed Block
@@ -140,7 +140,7 @@ footerBlocks:
    - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Call for paper"
+blogTitle: "Call for papers"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
@@ -148,7 +148,7 @@ discusShortName: "devfestua"
 showSessions: true
 
 # Team Block
-teamBlockTitle: "Organizers"
+teamBlockTitle: "Organization"
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
